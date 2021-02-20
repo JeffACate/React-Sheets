@@ -29,5 +29,5 @@ export default class App extends Component {
         </Form>
       </Container>
     )
-  }
+  } 
 }
