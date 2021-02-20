@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Button, Form, Container, Header } from 'semantic-ui-react'
 import './App.css';
+import Employees from './components/Employees'
 
 export default class App extends Component {
   render() {
@@ -27,6 +28,7 @@ export default class App extends Component {
           
           <Button color="blue" type='submit'>Submit</Button>
         </Form>
+        <Employees />
       </Container>
     )
   } 
